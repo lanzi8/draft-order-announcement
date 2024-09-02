@@ -1,0 +1,52 @@
+#announcement {
+  text-align: center;
+  margin-top: 10px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#fireworks-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container > img {
+  width: 100%;
+  max-width: 620px;
+}
+
+.firework {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ff0000; /* Replace with your desired color */
+  border-radius: 50%;
+  animation: firework-burst 2s ease-out forwards;
+}
+
+@keyframes firework-burst {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+#draft-order {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#draft-order li {
+  font-size: 24px;
+  margin: 10px 0;
+}
