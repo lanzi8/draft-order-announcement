@@ -4,18 +4,18 @@ const revealButton = document.getElementById("reveal-button");
 
 // Array of team names
 const teams = [
-  "Kollerschlager Packers (mathias)",
-  "Kollerschlag Kuahbuam (Pepone)",
-  "Edle Pferde aus Fuchsoedt (Franz)",
-  "Blue Warriors Kollerschlag (Stefan)",
-  "Krieger Besieger Kollerschlag (Patrick)",
-  "Marktplatz-49ers (Benji)",
-  "Urfahr Raiders (Pez)",
-  "Birkenfeld69ers (Jonas Martin)",
-  "Rodltal Pirates (Philipp)",
-  "LV Raidern (Sebastian)",
-  "Vienna 49ers (Otmar)",
-  "New Kollerschlag Patriots (Martin)"
+"Urfahr Raiders (Pez)",
+"LV Raidern (Sebastian)",
+"Blue Warriors Kollerschlag (Stefan)",
+"New Kollerschlag Patriots (Martin)",
+"LongDong9ers (Julian)",
+"Marktplatz-49ers (Benji)",
+"Edle Pferde aus Fuchsoedt (Franz)",
+"Kollerschlager Packers (mathias)",
+"Vienna 49ers (Otmar)",
+"Birkenfeld69ers (Jonas Martin)",
+"Rodltal Pirates (Philipp)",
+"Tuschetseudter chiefs (Martin)"
 ];
 
 // Function to create a firework animation
